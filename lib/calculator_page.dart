@@ -42,8 +42,8 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     'AC',
                     style: TextStyle(
-                      fontSize: 30.0,
-                      color: Colors.orange[600],
+                      fontSize: 25.0,
+                      color: Colors.orange[800],
                     ),
                   ),
                 ),
@@ -53,8 +53,8 @@ class CalculatorPageState extends State<CalculatorPage> {
                   onPressed: () {},
                   child: Icon(
                     Icons.backspace,
-                    size: 30.0,
-                    color: Colors.orange[600],
+                    size: 25.0,
+                    color: Colors.orange[800],
                   ),
                 ),
                 FlatButton(
@@ -63,8 +63,8 @@ class CalculatorPageState extends State<CalculatorPage> {
                   onPressed: () {},
                   child: Icon(
                     CustomModulo.percent,
-                    size: 25.0,
-                    color: Colors.orange[600],
+                    size: 22.0,
+                    color: Colors.orange[800],
                   ),
                 ),
                 FlatButton(
@@ -73,8 +73,8 @@ class CalculatorPageState extends State<CalculatorPage> {
                   onPressed: () {},
                   child: Icon(
                     CustomDivide.divide,
-                    size: 25.0,
-                    color: Colors.orange[600],
+                    size: 22.0,
+                    color: Colors.orange[800],
                   ),
                 ),
               ],
@@ -92,7 +92,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '7',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -103,7 +103,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '8',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -114,7 +114,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '9',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -123,7 +123,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   highlightColor: Colors.transparent,
                   onPressed: () {},
                   child: Icon(CustomMultiply.clear,
-                      size: 25.0, color: Colors.orange[600]),
+                      size: 23.0, color: Colors.orange[800]),
                 ),
               ],
             ),
@@ -140,7 +140,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '4',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -151,7 +151,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '5',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -162,7 +162,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '6',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -171,7 +171,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   highlightColor: Colors.transparent,
                   onPressed: () {},
                   child: Icon(CustomMinus.indeterminate_check_box,
-                  size: 25.0, color: Colors.orange[600]),
+                  size: 22.0, color: Colors.orange[800]),
                       
                 ),
               ],
@@ -187,7 +187,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '1',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -198,7 +198,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '2',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -209,7 +209,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '3',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -218,7 +218,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   highlightColor: Colors.transparent,
                   onPressed: () {},
                   child: Icon(Icons.add,
-                  size: 40.0,color: Colors.orange[600],),
+                  size: 33.0,color: Colors.orange[800],),
                   
                       
                 ),
@@ -233,7 +233,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   highlightColor: Colors.transparent,
                   onPressed: () {},
                   child: Icon(CustomRotate.screen_rotation,
-                  size: 25.0,color: Colors.orange[600],),
+                  size: 23.0,color: Colors.orange[800],),
                 ),
                 FlatButton(
                   splashColor: Colors.transparent,
@@ -242,7 +242,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '0',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -253,7 +253,7 @@ class CalculatorPageState extends State<CalculatorPage> {
                   child: Text(
                     '.',
                     style: TextStyle(
-                      fontSize: 35.0,
+                      fontSize: 32.0,
                     ),
                   ),
                 ),
@@ -262,13 +262,15 @@ class CalculatorPageState extends State<CalculatorPage> {
                   highlightColor: Colors.transparent,
                   onPressed: () {},
                   child: Icon(CustomEqual.eq_outline,
-                  size: 25.0,color: Colors.orange[600],),
+                  size: 22.0,color: Colors.orange[800],),
                   
                   
                       
                 ),
+                
               ],
-            )
+            ),
+            SizedBox(height: 20.0,),
           ],
         ),
       ),
