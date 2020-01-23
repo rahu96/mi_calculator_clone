@@ -48,6 +48,10 @@ flutter:
     - family:  CustomDivide
       fonts:
        - asset: fonts/CustomDivide.ttf
+    - family:  CustomMultiply
+      fonts:
+       - asset: fonts/CustomMultiply.ttf
+
 
   
   # To add assets to your application, add an assets section, like this:
