@@ -51,7 +51,15 @@ flutter:
     - family:  CustomMultiply
       fonts:
        - asset: fonts/CustomMultiply.ttf
-
+    - family:  CustomMinus
+      fonts:
+       - asset: fonts/CustomMinus.ttf
+    - family:  CustomEqual
+      fonts:
+       - asset: fonts/CustomEqual.ttf    
+    - family:  CustomRotate
+      fonts:
+       - asset: fonts/CustomRotate.ttf
 
   
   # To add assets to your application, add an assets section, like this:
